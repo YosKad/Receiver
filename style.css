@@ -11,3 +11,40 @@
     box-sizing: border-box;
 
 }
+
+/* change the font size of the navbar elments */
+.navbar a {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 19px;
+    line-height: 0.3;
+    background: #fff;
+}
+
+.w-100-height {
+    height: 90vh;
+    width: 100%;
+}
+
+.carousel-item{ 
+    min-height: 300px;
+}
+
+.carousel-caption {
+    text-align: left;
+    margin-bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+}
